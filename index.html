@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Digital Literacy - Week 9 Assignment</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#home" class="navbar-brand page-scroll">Online-Collaboration</a>
+        </div>
+        
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Data</a></li>
+            <li><a href="#conclusion" class="page-scroll">Conclusion</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <div id="intro" class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Online Learning</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Aliquid dolorum tempore voluptate deleniti sequi harum ipsa ratione, 
+               officiis repudiandae magni dolorem natus alias vel adipisci rerum, dolore quas animi. 
+               Molestias, repudiandae quibusdam. Omnis consequuntur alias laudantium! Ipsam quibusdam 
+               earum nulla aut consequatur cupiditate, quis ratione? Suscipit architecto eum vel culpa!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+
+    <!-- about -->
+    <section class="about title" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1 kiri">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta aut fuga recusandae ad vero voluptates voluptatibus iusto expedita voluptas animi itaque, ratione commodi pariatur. Quia veniam hic eius iure quis.</p>
+          </div>
+          <div class="col-sm-5 kanan">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsam, veritatis nesciunt eveniet voluptas labore quidem recusandae enim, repudiandae ab accusantium consectetur minus optio adipisci voluptates omnis consequuntur dolore qui?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+
+
+
+    <!-- portfolio -->
+    <section class="portfolio title" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Participant</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="status">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="gender">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="origin">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+
+        <!-- bagian deskripsi -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Grade of Education</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Gender</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body text-center">
+                <h2>Origin</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- akhir portfolio -->
+
+    <!-- First Section -->
+    <section class="portfolio title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>First Section</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="place">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-4">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                  elit. Doloribus animi corrupti, esse nisi tempora 
+                  doloremque labore inventore velit illo nesciunt!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="frequencies">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+
+        <!-- bagian 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="understand">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="Environment">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="SourceofStudy">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- akhir First Section -->
+
+    <!-- section 2 -->
+    <section class="portfolio title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center title">
+            <h2>Second Section</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="flexibility">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="Freedom">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <canvas class="card thumbnail shadow" id="skill">
+              <div class="card-body">
+
+              </div>
+            </canvas>
+          </div>
+          <div class="col-sm-8">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Qui at vel eveniet 
+                  reprehenderit aliquam quibusdam mollitia, 
+                  ea veritatis praesentium, in sunt fugiat 
+                  esse eum porro minus eaque? Saepe, impedit 
+                  cupiditate corporis neque id maiores 
+                  numquam animi eaque placeat beatae 
+                  reiciendis ratione est repellendus eveniet 
+                  molestias obcaecati odit deleniti 
+                  voluptatibus aliquid earum ex fuga dolor 
+                  eligendi? Magnam minima illo recusandae 
+                  laudantium fugit, impedit doloremque 
+                  quisquam voluptas earum incidunt. Sapiente, 
+                  temporibus et architecto ullam odio ipsa 
+                  modi cumque corporis nobis, perspiciatis, 
+                  mollitia eius saepe explicabo quam iure 
+                  odit officiis nihil dicta accusamus 
+                  cupiditate culpa consectetur distinctio 
+                  tempore. Qui, quos expedita? Dolor ipsum 
+                  quia perspiciatis animi asperiores,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir section 2 -->
+      </div>
+    </section>
+
+    <section id="conclusion" class="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card thumbnail shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Conclusion</h5>
+                <p class="card-text">Based on our data analysis, we can conclude that:</p>
+                <ol>
+                  <li>67.8 percent of our respondents are college students,</li>
+                  <li>Our respondents come from many different cities in Indonesia, such as Bekasi, Semarang, Bandung, Medan, Lombok Barat, and so on,</li>
+                  <li>51.1 percent of our respondents are male while female only 47.8 percent,</li>
+                  <li>87 out of 89 our respondents or we can say 97.8 percent of our respondents are studying online,</li>
+                  <li>In this pandemic, 64 percent of our respondents are studying for 5 days in a week, while others studying more than 5 days in a week,</li>
+                  <li>The obstacles experienced by each respondent are different from one and another. But the most common answer is they don’t concentrate on studying online compare when they study offline. This is proved by 70.8 percent of our respondents.</li>
+                  <li>In question six we know that most of them don’t concentrate when studying online this affects the ability to understand the material provided by the teacher or lecturer. Or we can say that 58.4 percent of our respondents don’t understand what they study about,</li>
+                  <li>This pandemic also makes most of our respondents don’t enjoy the new version of the study. 69.3 percent of our respondents said that. They prefer to study offline to online,</li>
+                  <li>By our data, 66.7 percent of our respondents said that they can easily get the material courses since it is provided by Google or anything else,</li>
+                  <li>The first thing that they are enjoying the online learning is that they can enjoy studying what they like (their passion). 58.4 percent of our respondents said that,</li>
+                  <li>The second things that they are enjoying online learning are that they can study what they need. 69.7 percent of the respondents prove it.</li>
+                  <li>The last question that we asked the respondents is about how your teacher or lecturer is helping you during this online learning. The most common answer (42 percent of our respondents) is the teacher or lecturer is helpful not very helpful or either didn't help at all.</li>
+                </ol>
+                <p>So, that’s all about the conclusion. We used google form to collect our data. At last, we want to say that this is a new era for us, not only for the student but also for the teacher or lecturer. So, we want that we work together to pass through this pandemic era.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Digital Literacy - Week 9 Assignment</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Group 1</p>>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+   <script src="js/script.js"></script>
+
+  </body>
+</html>
+
+
+
+
